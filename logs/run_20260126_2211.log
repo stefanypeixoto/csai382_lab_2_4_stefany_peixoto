@@ -1,0 +1,25 @@
+2026-01-26 22:11:53,697 | INFO | Starting ETL process...
+2026-01-26 22:11:53,853 | INFO | Python version: 3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]
+2026-01-26 22:11:53,878 | INFO | Config: {'data_path': 'data', 'log_dir': 'logs', 'random_seed': 0}
+2026-01-26 22:11:54,209 | INFO | Hash for menu_items.csv: 396ce2521d4cb609d72cfae06e80a7f347f608c6709b31ff70a14cecfea994ac
+2026-01-26 22:11:54,563 | INFO | Hash for order_details.csv: 284cfe6edcc57ba4ea38e263cc0d113c2e63d8bf0862e74cb40151e8a77ca8b9
+2026-01-26 22:12:47,421 | INFO | Received command c on object id p0
+2026-01-26 22:12:47,443 | INFO | Starting data loading process...
+2026-01-26 22:12:47,658 | INFO | Top 5 items by quantity:
+item_name
+Hamburger           622
+Edamame             620
+Korean Beef Bowl    588
+Cheeseburger        583
+French Fries        571
+Name: count, dtype: int64
+2026-01-26 22:12:47,667 | INFO | Revenue by category:
+category
+American    28237.75
+Asian       46720.65
+Italian     49462.70
+Mexican     34796.80
+Name: price, dtype: float64
+2026-01-26 22:12:47,669 | INFO | Busiest hour of day: 12:00
+2026-01-26 22:12:47,670 | INFO | Metrics computed. Busiest hour identified: 12:00
+2026-01-26 22:12:47,735 | INFO | ETL successful. Metrics saved to: data/metrics_20260126_2212.csv
