@@ -1,0 +1,9 @@
+2026-01-21 23:30:00,423 | INFO | Starting ETL process...
+2026-01-21 23:30:00,718 | INFO | Hash for menu_items.csv: 396ce2521d4cb609d72cfae06e80a7f347f608c6709b31ff70a14cecfea994ac
+2026-01-21 23:30:01,085 | INFO | Hash for order_details.csv: 284cfe6edcc57ba4ea38e263cc0d113c2e63d8bf0862e74cb40151e8a77ca8b9
+2026-01-21 23:30:03,716 | INFO | Received command c on object id p0
+2026-01-21 23:30:03,774 | INFO | Starting data loading process...
+2026-01-21 23:30:04,239 | INFO | Metrics computed. Busiest hour identified: 12:00
+2026-01-21 23:30:04,297 | INFO | ETL successful. Metrics saved to: data/metrics_20260121_2330.csv
+2026-01-21 23:35:28,238 | INFO | Python Server ready to receive messages
+2026-01-21 23:35:28,244 | INFO | Received command c on object id p0
